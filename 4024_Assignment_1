@@ -1,0 +1,224 @@
+Assignment 1
+
+by: Taj Sadullah
+
+Question-1:
+
+Create a User Registration Page Form with Following fields
+
+Name:
+
+Email:
+
+Mobile:
+
+City:
+
+State:
+
+Country:
+
+Solution:
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>User Registration Page</title>
+
+</head>
+
+<body>
+
+<h1 style="color:red;">User registration page</h1>
+
+<form action="Assignment1.html" method="get">
+
+<table>
+
+<tr>
+
+<td><label for="name">Name:</label></td>
+
+<td><input type="text" id="name" name="name"></td>
+
+</tr>
+
+<tr>
+
+<td><label for="email">Email id:</label></td>
+
+<td><input type="text" id="email" name="email"></td>
+
+</tr>
+
+<tr>
+
+<td><label for="mobile">Mobile Number:</label></td>
+
+<td><input type="text" id="mobile" name="mobile"></td>
+
+</tr>
+
+<td><label for="city">City:</label></td>
+
+<td>
+
+<select name="city" id="city">
+<option value="">Select city</option>
+
+<option value="chennai">Chennai</option>
+
+<option value="mumbai">Mumbai</option>
+
+<option value="kolkata">Kolkata</option>
+
+<option value="delhi">Delhi</option>
+
+<option value="Bengaluru">Bengaluru</option>
+
+<option value="Other">other</option>
+
+</select>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td><label for="state">State :</label></td>
+
+<td>
+
+<select name="state" id="state">
+
+<option value="">Select state</option>
+
+<option value="tamilnadu">Tamilnadu</option>
+
+<option value="maharastra">Maharastra</option>
+
+<option value="west_bengal">West Bengal</option>
+
+<option value="delhi">Delhi</option>
+
+<option value="karnataka">Karnataka</option>
+
+<option value="Other">others</option>
+
+</select>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td><label for="country">Country:</label></td>
+
+<td>
+
+<input type="radio" id="india" name="country" value="india">
+
+<label for="india">India</label>
+
+<input type="radio" id="others" name="country" value="others">
+
+<label for="others">Other</label>
+
+</td>
+
+</tr>
+
+</table>
+
+<input type="submit" value="Submit">
+
+</form>
+
+</body>
+</html>
+
+Question-2:
+
+Execute the HTML Formatting Elements
+
+Solution:
+
+<html>
+
+<body>
+
+<b>Apple</b>
+
+<strong>Ball</strong>
+
+<i>Dog</i>
+
+<em>Egg</em>
+
+<mark>Fish</mark>
+
+<small>Goat</small>
+
+<del>Hen</del>
+
+<ins>Ink</ins>
+
+<sub>Jackfruit</sub>
+
+<sup>King</sup>
+
+</body>
+
+</html>
+
+Question-3
+
+Find out all other HTML Input types
+
+<input type="button">
+
+<input type="checkbox">
+
+<input type="color">
+
+<input type="date">
+
+<input type="datetime-local">
+
+<input type="email">
+
+<input type="file">
+
+<input type="hidden">
+
+<input type="image">
+
+<input type="month">
+
+<input type="number">
+
+<input type="password">
+
+<input type="radio">
+
+<input type="range">
+
+<input type="reset">
+
+<input type="search">
+
+<input type="submit">
+<input type="tel">
+
+<input type="text">
+
+<input type="time">
+
+<input type="url">
+
+<input type="week">
